@@ -8,7 +8,9 @@
             android:id="@+id/frag1"
             android:name="com.example.jetpackfirst.TimeTableFragment"
             android:label="Time Table"
-            tools:layout="@layout/fragment_time_table"/>
+            tools:layout="@layout/fragment_time_table">
+        <action android:id="@+id/action_frag1_to_frag2" app:destination="@id/frag2"/>
+    </fragment>
     <fragment
             android:id="@+id/frag3"
             android:name="com.example.jetpackfirst.SettingsFragment"
